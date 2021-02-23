@@ -1,0 +1,36 @@
+{
+  "name": "bitflyerlightningwrapper",
+  "version": "1.0.0",
+  "description": "Execution helper for bitFlyer lighting API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ts-node tests/debug.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangma9712/bitFlyerLightningWrapper.git"
+  },
+  "homepage": "https://github.com/xiangma9712/bitFlyerLightningWrapper#readme",
+  "keywords": [
+    "bitFlyer",
+    "API"
+  ],
+  "author": "Shoma Koike <shomakoike0909+npm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.0.27",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
